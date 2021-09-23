@@ -41,7 +41,7 @@ pipeline {
         stage('deploy'){
             steps{
                 echo "Deploy into tomcat"
-                build 'deploy-war-from-jenkins-to-tomcat'
+                build 'deploy_war_from_jenkins_to_tomcat(rock_paper_scissior)'
             }
         }
     }
